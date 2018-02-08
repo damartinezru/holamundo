@@ -5,6 +5,8 @@
  */
 package holamundo;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Estudiantes
@@ -15,7 +17,12 @@ public class HolaMundo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        String nombre;
+        Scanner sc=new Scanner(System.in);
+        nombre=sc.next();
+        System.out.println("Hola mundo "+nombre);
+        
     }
     
 }
